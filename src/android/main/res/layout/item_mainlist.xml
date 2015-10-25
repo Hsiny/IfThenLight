@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff9c838"
+    android:paddingLeft="8px"
+    android:paddingRight="12px">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#333"
+            android:id="@+id/list_item_tag"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="标签"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/list_item_title"
+            android:textColor="#333"
+            android:text="标题"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/list_item_content"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:paddingTop="8px"
+        android:paddingLeft="24px"
+        android:paddingBottom="5px"
+        android:text="内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/list_item_create"
+        android:textColor="#333"
+        android:text="2012年10月10日"
+        android:gravity="right"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="2px"
+    android:padding="10px"
+    android:background="#f7e998">
+    <TextView
+        android:text="If then light"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200px"
+        android:layout_marginBottom="100px"/>
+    <EditText android:text="@string/hello_world"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"/>
+    <EditText android:text="@string/hello_world"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="150px">
+        <Button
+            android:id="@+id/login_btn"
+            android:text="Login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="3px"
+            android:paddingBottom="3px"
+            android:paddingLeft="6px"
+            android:paddingRight="6px"
+            android:layout_margin="10px"
+            android:background="#fff9c838"/>
+        <Button
+            android:text="Sign Up"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="3px"
+            android:paddingBottom="3px"
+            android:paddingLeft="6px"
+            android:paddingRight="6px"
+            android:layout_margin="10px"
+            android:background="#fff9c838"/>
+        </LinearLayout>
+</LinearLayout>
+
